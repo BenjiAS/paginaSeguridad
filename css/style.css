@@ -14,6 +14,7 @@ body {
     font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-weight: 300;
     font-size: 1em;
+    overflow-y:auto;
 }
 
 .wrapper {
@@ -124,7 +125,7 @@ nav {
     z-index: 1000;
     display: inline;
     font-family: 'Montserrat', sans-serif;
-
+        border: 2px solid black;
 }
 
 /*nav:hover {
@@ -147,7 +148,7 @@ li{
     font-size: 1.5em;
     padding: 0;
     margin: 0 1%;
-    height: 100%;
+
     margin-top: 15px;
 }
 
@@ -184,6 +185,21 @@ li{
 form {
   padding-top: 10%;
 }
+
+#registroForm {
+    padding-bottom: 100px;
+    padding-top: 50px;
+        border: 2px solid black;
+}
+
+#menuAdmon {
+    border-collapse: collapse;
+    border: 2px solid black;
+    top: 120px;
+    bottom: 0;
+}
+
+/**********************************************************/
 
 footer {
     background-color: red;
