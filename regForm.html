@@ -21,61 +21,80 @@
             <li><a href="sesion.html">Iniciar Sesión</a></li>
         </ul>
     </nav>
-
-
     <div>
-    <div id="menuAdmon" class="container col-xs-3">
-		<a href=""><p>Administración de Voluntarios</p></a>
-		<a href=""><p>Administración de Instituciones</p></a>
-		<a href=""><p>Administración de Patrocinadores</p></a>
-		<a href=""><p>Administración de Usuarios</p></a>
-	</div>
-	<div id="registroForm" class="container col-xs-6">
-		<form role="form">
-			<label id="sesionLabel">Nombre(s): </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. Juan Ricardo">
-			<br><br>
+	    <div id="menuAdmon" class="container col-xs-3">
+			<a href=""><p>Administración de Voluntarios</p></a>
+			<a href=""><p>Administración de Instituciones</p></a>
+			<a href=""><p>Administración de Patrocinadores</p></a>
+			<a href=""><p>Administración de Usuarios</p></a>
+		</div>
+		<div id="registroForm" class="container col-xs-6">
+			<form action="php/registroVoluntarios.php"  role="form">
+				<div class="container col-xs-12">
+					<label id="nombresVoluntario">Nombre(s): </label>
+					<br>
+					<input id="nombresVoluntario" name="nombresVoluntario" class="form-control" type="text" placeholder="i.e. Juan Ricardo">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">Apellido Paterno: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. Hernández">
-			<br><br>
+				<div class="container col-xs-12">
+					<label id="apellidoPatVoluntario">Apellido Paterno: </label>
+					<br>
+					<input id="apellidoPatVoluntario" name="apellidoPatVoluntario" class="form-control" type="text" placeholder="i.e. Hernández">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">Apellido Materno: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. López">
-			<br><br>
+				<div class="container col-xs-12">
+					<label id="apellidoMatVoluntario">Apellido Materno: </label>
+					<br>
+					<input id="apellidoMatVoluntario" name="apellidoMatVoluntario" class="form-control" type="text" placeholder="i.e. López">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">Matrícula: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. López">
-			<br><br>
+				<div class="container col-xs-6">
+					<label id="matriculaVoluntario">Matrícula: </label>
+					<br>
+					<input id="matriculaVoluntario" name="matriculaVoluntario" class="form-control" type="text" placeholder="i.e. A01233188">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">E-mail: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="email" placeholder="i.e. juanhernandez@hotmail.com">
-			<br><br>
+				<div class="container col-xs-6">
+					<label id="emailVoluntario">E-mail: </label>
+					<br>
+					<input id="emailVoluntario" name="emailVoluntario" class="form-control" type="email" placeholder="i.e. juanhernandez@hotmail.com">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">Celular: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. 8713567890">
-			<br><br>
+				<div class="container col-xs-6">
+					<label id="celularVoluntario">Celular: </label>
+					<br>
+					<input id="celularVoluntario" name="celularVoluntario" class="form-control" type="text" placeholder="i.e. 8713567890">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">Carrera/Prepa: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. ITIC">
-			<br><br>
+				<div class="container col-xs-6">
+					<label id="telefonoVoluntario">Teléfono: </label>
+					<br>
+					<input id="telefonoVoluntario" name="telefonoVoluntario" class="form-control" type="text" placeholder="i.e. 7567890">
+					<br><br>
+				</div>
 
-			<label id="sesionLabel">Semestre: </label>
-			<br>
-			<input id="nombreUsuario" name="nombreVoluntario" class="form-control" type="text" placeholder="i.e. 6">
-			<br><br>
+				<div class="container col-xs-6">
+					<label id="carreraVoluntario">Carrera/Prepa: </label>
+					<br>
+					<input id="carreraVoluntario" name="carreraVoluntario" class="form-control" type="text" placeholder="i.e. ITIC">
+					<br><br>
+				</div>
+				<div class="container col-xs-6">
+					<label id="semestreVoluntario">Semestre: </label>
+					<br>
+					<input id="semestreVoluntario" name="semestreVoluntario" class="form-control" type="text" placeholder="i.e. 6">
+					<br><br>
+				</div>
 
-
-			<div id="buttonDiv"><button class="btn btn-primary" type="submit">Registrar Voluntario</button></div>
-		</form>
-	</div>
+				<div id="buttonDiv"><button class="btn btn-primary" type="submit">Registrar Voluntario</button></div>
+			</form>
+		</div>
 	</div>
 </body>
 <footer>
